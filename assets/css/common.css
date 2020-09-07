@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+    outline: none !important;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.common-section {
+    padding: 5rem 0;
+}
+.sub-title {
+    font-size: 1.15rem;
+    line-height: 2rem;
+}
+span {
+    font-size: inherit;
+    text-transform: inherit;
+    line-height: inherit;
+}
+.btn {
+    border-radius: 2.5rem;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.free-demo-btn {
+    background: linear-gradient(to right, #0099E1, #00B8F4);
+    line-height: 1.75rem;
+}
+.free-demo-btn > img {
+    max-width: 1rem;
+}
+.start-trail-btn-1 {
+    background-color: #273F52;
+    font-size: 1.025rem !important;
+    line-height: 1.75rem;
+}
+.start-trail-btn-2 {
+    background-color: #3F3E7A;
+    font-size: 1.025rem !important;
+    line-height: 1.75rem;
+}
+.start-trail-btn-3 {
+    background-color: #2F569B;
+    font-size: 1.025rem !important;
+    line-height: 1.75rem;
+}
+.start-trail-btn-4 {
+    background-color: #00B8F4;
+    font-size: 1.025rem !important;
+    line-height: 1.75rem;
+}
+.start-trail-btn-1 > img {
+    max-width: 1.025rem;
+}
+.country img {
+    max-width: 2rem;
+}
+.dropdown-toggle {
+    font-size: 0.95rem;
+}
+.dropdown-toggle::after {
+    vertical-align: middle;
+    margin-left: 0.65rem;
+}
+.header-btn {
+    background-color: #fff;
+    border: 0.1rem solid #00C3F9;
+    color: #00C3F9;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    padding: 0.375rem 1rem;
+    border-radius: 0.25rem; 
+}
+header .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #00C3F9;
+}
+.search-icon {
+    background-color: #00C3F9;
+    border-radius: 0.75rem;
+    padding: 0.375rem 0.5rem;
+    box-shadow: 1px 1px 2px 2px rgb(223 223 223);
+}
+.search-icon > img {
+    max-width: 1.25rem;
+}
+
+header, header .input-group-prepend {
+    background-color: #F6F8FA;
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+}
+header, header .input-group-prepend * {
+    color: #000;
+}
+header .input-group *:not(.dropdown-menu) {
+    border: 0;
+}
+header {
+    padding: 1.5rem 0;
+}
+.country .dropdown-item img {
+    max-width: 1.5rem;
+}
+.country .dropdown-item {
+    padding: 0.5rem 1rem;
+    border-bottom: 0.1rem solid #ddd;
+}
+.country .dropdown-item:last-child {
+    border: 0;
+}
+.menu-wrapper {
+    min-width: 26rem;
+}
+
+@media screen and (min-width: 320px) {
+    .main-container {
+        width: 87.5%;
+    }
+    * {
+        font-size: 14px;
+    }
+    .common-title {
+        font-size: 2.05rem;
+    }
+    .navbar-brand {
+        width: 12.5rem;
+    }
+    header .input-group {
+        padding: 0.25rem;
+        background-color: #fff;
+        border-radius: 0.75rem;
+        max-width: 18rem;
+        box-shadow: 1px 1px 2px 2px rgb(223 223 223);
+    }
+    .menu-wrapper {
+        box-shadow: inset 0 0 2px 2px #ddd;
+    }
+    header .navbar-collapse {
+        position: fixed;
+        top: 18vh;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: #fff;
+    }
+    header .navbar-nav .nav-link, .menu-wrapper .form-inline {
+        padding: 0.75rem 1.5rem;
+    }
+    .menu-wrapper .form-inline {
+        border-top: 0.1rem solid #ddd;
+    }
+    .banner .common-title, .banner .common-title + p {
+        color: #273F52;
+    }
+    footer .navbar-brand + p {
+        font-size: 0.85rem;
+    }
+    footer .navbar-brand + p, .quick-links ul li a {
+        color: #948e8e;
+    }
+    .terms-text a {
+        color: #333;
+    }
+    .quick-links ul li a {
+        display: block;
+        font-size: 0.95rem;
+        text-transform: uppercase; 
+        margin-bottom: 0.85rem;
+    }
+    .banner {
+        background-color: #f2f2f2;
+    }
+    .common-title.sm-text {
+        font-size: 1.25rem;
+    }
+    .media-icons * {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 1.75rem;
+        margin: 0 0.5rem 0 0;
+    }
+    .media-icons *:last-child {
+        margin: 0;
+    }
+    .partner-img {
+        max-width: 10rem;
+    }
+    
+    footer {
+        padding: 3rem 0 1.5rem;
+    }
+    footer .navbar-brand {
+        width: 10rem;
+    }
+    .copy-block {
+        border-top: 0.1rem solid #ddd;
+    }
+}
+@media screen and (min-width: 576px) {
+    .w-sm-75 {
+        width: 75% !important;
+    }
+    .w-sm-auto {
+        width: auto !important;
+    }
+    header .input-group {
+        max-width: 22.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .w-md-75 {
+        width: 75% !important;
+    }
+    header .navbar-collapse {
+        top: 8.75vh;
+    }
+    .banner {
+        background: url(../img/banner.png) no-repeat;
+        background-position: bottom right;
+        background-size: 40%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .w-lg-60 {
+        width: 60% !important;
+    }
+    .w-lg-75 {
+        width: 75% !important;
+    }
+    .w-lg-auto {
+        width: auto !important;
+    }
+    .main-container {
+        width: 85%;
+    }
+    * {
+        font-size: 16px;
+    }
+    .w-90 {
+        width: 90%;
+    }
+    .navbar-brand {
+        width: 25rem;
+    }
+    header .input-group {
+        max-width: 30rem;
+    }
+    header .navbar-collapse {
+        position: static;
+    }
+    .menu-wrapper {
+        box-shadow: none;
+    }
+    header .navbar-collapse {
+        background-color: transparent;
+    }
+    header .navbar-nav .nav-link, .menu-wrapper .form-inline {
+        padding: 0;
+    }
+    .menu-wrapper .form-inline {
+        border: 0;
+    }
+    footer {
+        padding: 3rem 0;
+    }
+    .common-title {
+        font-size: 2.5rem;
+    }
+}

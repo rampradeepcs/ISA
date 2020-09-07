@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="265px" height="265px" viewBox="0 0 265 265" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-bg</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-bg">
+            <path d="M132.5,0 L253,0 C259.627417,-1.21743675e-15 265,5.372583 265,12 L265,132.5 C265,205.677729 205.677729,265 132.5,265 C59.3222706,265 8.9616872e-15,205.677729 0,132.5 C-8.9616872e-15,59.3222706 59.3222706,1.34425308e-14 132.5,0 Z" id="Rectangle" fill="#EDF0F2"></path>
+            <circle id="Oval" stroke="#2C3E50" stroke-width="1.5" fill="#FFFFFF" cx="242" cy="24" r="9.25"></circle>
+        </g>
+    </g>
+</svg>
