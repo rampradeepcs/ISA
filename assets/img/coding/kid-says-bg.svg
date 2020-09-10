@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="608px" height="608px" viewBox="0 0 608 608" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval</title>
+    <defs>
+        <circle id="path-1" cx="304" cy="304" r="304"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="608" height="608" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Coding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="20">
+        <g id="Screen01" transform="translate(-656.000000, -3112.000000)" fill="#FFFFFF" stroke="#EF5059" stroke-width="5">
+            <g id="Group-16" transform="translate(656.000000, 3112.000000)">
+                <use id="Oval" mask="url(#mask-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

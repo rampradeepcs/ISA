@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="839px" height="588px" viewBox="0 0 839 588" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>video-bg</title>
+    <defs>
+        <linearGradient x1="63.9120892%" y1="20.6928382%" x2="23.2581719%" y2="81.9814989%" id="linearGradient-1">
+            <stop stop-color="#E6F5FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Coding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Screen01" transform="translate(-90.000000, -1227.000000)">
+            <g id="video-bg" transform="translate(90.000000, 1227.000000)">
+                <path d="M343.436372,72.288143 L474.406825,145.522368 C502.541273,161.254195 519.970453,190.968902 519.970453,223.203006 L519.970453,364.796994 C519.970453,397.031098 502.541273,426.745805 474.406825,442.477632 L343.436372,515.711857 C316.445314,530.804339 283.554686,530.804339 256.563628,515.711857 L125.593175,442.477632 C97.4587274,426.745805 80.0295474,397.031098 80.0295474,364.796994 L80.0295474,223.203006 C80.0295474,190.968902 97.4587274,161.254195 125.593175,145.522368 L256.563628,72.288143 C283.554686,57.1956606 316.445314,57.1956606 343.436372,72.288143 Z" id="Polygon" fill="url(#linearGradient-1)" transform="translate(300.000000, 294.000000) scale(1, -1) rotate(-12.000000) translate(-300.000000, -294.000000) "></path>
+                <circle id="Oval" fill="#FCA7D1" cx="775" cy="77" r="64"></circle>
+                <circle id="Oval" fill="#4C3EEC" cx="661" cy="454" r="10"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
