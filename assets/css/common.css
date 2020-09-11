@@ -158,6 +158,14 @@ header {
     min-width: 26rem;
 }
 
+.row.m-0.align-items-stretch {
+    background: url(../img/coding/video-bg.svg) left;
+    background-size: 70% 85%;
+    background-repeat: no-repeat;
+    background-position-x: -8vw;
+    background-position-y: 6vw;
+}
+
 @media screen and (min-width: 320px) {
     .main-container {
         width: 87.5%;
