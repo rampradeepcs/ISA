@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="favicon.ico">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sign Up | ISA</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="w-100">
+        <div class="login-wraper">
+            <div class="login-info">
+                <img class="" src="assets/img/logo.png" alt="Logo">
+                <img class="center-img" src="assets/img/login/banner-accountReg.svg" alt="Math Icon">
+                <div class="clearfix content">
+                    <h3>Account Registration</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem losum has been the industry's standard.</p>
+                </div>
+            </div>
+            <div class="login-form">
+                <div class="sign-in  container-fluid">
+                    <h3>Sign In</h3>
+                    <p>Have account?<a href="sign-up.html">Sign In</a></p>
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="text">Email Id</label>
+                                    <input type="emil" class="form-control" id="emailid" placeholder="Enter Email Id">
+                                </div>
+                                <div class="form-group">
+                                    <label for="text">Username</label>
+                                    <input type="text" class="form-control" id="Username" placeholder="Enter Username">
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="text">Gender</label>
+                                            <div class="select">
+                                                <select class="form-control">
+                                                    <option>Select Gender</option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="text">Child Grade</label>
+                                            <div class="select">
+                                                <select class="form-control">
+                                                    <option>Pre-K</option>
+                                                    <option>LKG</option>
+                                                    <option>UKG</option>
+                                                </select>
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phone-number">
+                                    <div class="form-group">
+                                        <label for="text">Phone Number</label>
+                                        <div class="number">
+                                            <div class="select">
+                                                <select class="form-control">
+                                                    <option>+01</option>
+                                                    <option>+02</option>
+                                                    <option>+03</option>
+                                                </select>
+                                            </div>
+                                            <input type="text" class="form-control" id="phonenumber" placeholder="Enter Phone Number">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="text">First Name</label>
+                                            <input type="text" class="form-control" id="firstname" placeholder="Enter First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="text">Last Name</label>
+                                            <input type="text" class="form-control" id="firstname" placeholder="Enter Last Name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter Password">
+                                </div> 
+                                <div class="form-group">
+                                    <label for="pwd">Confirm Password</label>
+                                    <input type="password" class="form-control" id="confirmpwd" placeholder="Enter Confirm Password">
+                                </div> 
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-7">
+                                        <div class="form-group">
+                                            <label for="dob">Date of Birth</label>
+                                            <div class="calender">
+                                                <input type="password" class="form-control" id="dob" placeholder="DD/MM/YYYY">
+                                                <img class="" src="assets/img/login/icon-date.svg" alt="calender Icon">
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="pwd">What type of user are you?</label>
+                                    <div class="login-user">
+                                        <div class="item">
+                                            <input type="radio" id="student" name="user" value="student">
+                                            <img class="" src="assets/img/login/icon-student.svg" alt="Student">
+                                            <div class="tick"></div>
+                                            <p>Student</p>
+                                        </div>
+                                        <div class="item">
+                                            <input type="radio" id="parent" name="user" value="parent">
+                                            <img class="" src="assets/img/login/icon-parent.svg" alt="Parent">
+                                            <div class="tick"></div>
+                                            <p>Parent</p>
+                                        </div>
+                                        <div class="item">
+                                            <input type="radio" id="instructor" name="user" value="instructor">
+                                            <img class="" src="assets/img/login/icon-instructor.svg" alt="Instructor">
+                                            <div class="tick"></div>
+                                            <p>Instructor</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <button type="submit" class="btn start-trail-btn-4">REGISTER <span><img class="" src="assets/img/login/icon-right-white.svg" alt="Right Icon"></span></span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="https://kit.fontawesome.com/2372d58066.js" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
